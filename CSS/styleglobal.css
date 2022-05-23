@@ -1,0 +1,35 @@
+/* Mise en page du body Général */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+/* Mise en page de la page Main global */
+
+main {
+    /* max-width: 1024px; */
+    margin: 0 auto;
+    /* padding: 5px 10px; */
+
+}
+
+
+
+
+
+
+

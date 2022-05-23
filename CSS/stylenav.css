@@ -1,0 +1,94 @@
+/* Mise en page du header */
+
+
+header {
+    /* border: 3px solid rgb(228, 31, 31); */
+    height: 20vh;
+    width: 100vw;
+    
+}
+
+nav {
+    width: 100vw;
+    /* border: 1px solid black; */
+}
+
+header nav {
+    position: fixed;
+    background-color: white;
+    
+    
+    
+}
+
+header div {
+    position: fixed;
+    width: 100vw;
+    height: 1vh;
+    margin-top: 3%;
+    /* background-color: #57a2e4; */
+    background-image: linear-gradient(
+    0deg,
+    hsl(208deg 72% 62%) 20%,
+    hsl(213deg 66% 85%) 82%,
+    hsl(0deg 0% 100%) 100%
+    );
+    bottom: 100;
+
+}
+
+header h1 {
+    color: white;
+    visibility: hidden;
+}
+
+header h2 {
+    position: absolute;
+    padding-top: 5%;
+    margin-left: 10em;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+header p {
+    position: absolute;
+    padding-top: 6.5%;
+    margin-left: 19.5em;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    color: rgb(138, 138, 138);
+}
+
+header nav ul {
+    text-align: center;
+}
+
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 2px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+
+header nav li a {
+    text-decoration: none;
+    padding: 30px;
+    color: rgb(40, 40, 40);
+
+}
+
+header nav li a:hover {
+    color: rgb(92, 92, 198);
+    transition: 0.5s;
+}
+
+/* header nav li a:focus {
+    border-bottom: 1px solid #2d577c ;
+} */
+
+
+

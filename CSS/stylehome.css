@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mise en forme general  */
+
+.box1 {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 50%;
+    padding: 1em;
+    background-color: #e4e4e4;
+}
+
+.box2 {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 50%;
+    padding: 1em;
+    background-color: #f3f3f3;
+}
+
+
+main #A {
+    margin: 0 auto;
+    padding-left: 80px;
+    width: 1024px;
+    height: 50%;
+}
+
+main #B {
+    margin: 0 auto;
+    padding-left: 80px;
+    width: 1024px;
+    height: 50%;
+}
+
+main #B img {
+    width: 50%;
+    height: 50%;
+}
+
+
+/* mise en forme section */
+
+main h2 {
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;  
+}
+
+main article {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+main table {
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 2em;
+    
+}
+
+main table a {
+    padding-right: 500px;
+}
+
+main table th , td {
+    width: 40%;
+    
+}
+
+main table th {
+    width: 5%;
+    padding: 0%;
+}
+
+main table tr:hover {
+    background-image: linear-gradient(
+    270deg,
+    hsl(0, 0%, 95%) 0%,
+    hsl(200deg 60% 64%) 68%,
+    hsl(0, 0%, 95%) 100%,
+    hsl(0, 0%, 95%) 100%
+    );
+    border-radius: 20px;
+}
+
+main table td a:hover {
+    color: rgb(89, 171, 196);
+}

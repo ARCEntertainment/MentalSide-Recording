@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mise en forme page Artist */
+
+main {
+    width: 1024px;
+}
+
+main article {
+    display: inline-block; 
+    width: 50%; 
+    margin: 0 auto;
+    
+}
+
+main article p {
+    text-align: center;
+}
+
+main article ul li  {
+    text-align: center;
+    
+}
+
+main article ul li a  {
+    text-decoration: none;
+    color: black;
+    
+}
+
+main article ul {
+    list-style: none;
+}
+
+main article div {
+    margin: 0 auto;
+    background-image: url(../img/logo_brain.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding: 25%;
+    
+}
